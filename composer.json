@@ -1,0 +1,18 @@
+{
+  "name": "gulch/monot-monitor-app",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.1",
+    "ext-curl": "*",
+    "gulch/monot": "dev-master",
+    "monolog/monolog": "^1.23",
+    "vlucas/phpdotenv": "^2.4"
+  },
+  "repositories":[
+    {
+      "type": "git",
+      "url": "https://github.com/gulch/monot"
+    }
+  ]
+}
